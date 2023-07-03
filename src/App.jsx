@@ -14,7 +14,7 @@ function App() {
           </div> */}
         </div>
         <div className='flex flex-col md:flex-row md:gap-7 items-center md:items-start'>
-          <img className='rounded-full w-28 md:w-36 border-4 border-[#FFE071] p-1' src="https://media.licdn.com/dms/image/D4D03AQGY2xHhSCww2w/profile-displayphoto-shrink_200_200/0/1688343393085?e=1694044800&v=beta&t=l_9EaVsyydlL8cW2XOGNGkSVMXSSqKDvNDL83omQx_s" alt="Avatar Linkedin" />
+          <img className='rounded-full w-28 md:w-36 border-4 border-[#FFE071] p-1' src="/profile-pic.png" alt="Avatar Linkedin" />
           <div className='flex flex-col items-center md:items-start mt-8 md:mt-0'>
             <h1 className='text-gray-100 text-[32px] font-medium'>Lucas David</h1>
             <div className='flex  gap-2 items-center'>
