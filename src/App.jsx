@@ -55,7 +55,7 @@ function App() {
               github="https://github.com/lucas-canellas/shoppingify-api" />
             <Card
               image="/promobit.jpg"
-              title="Promobit"
+              title="TMDB Movies"
               subtitle='Este desafio foi retirado do repositório no GitHub "front-end-challenge". Trata-se de um catálogo de filmes desenvolvido utilizando a API do themoviedb.'
               stack=" HTML, CSS, JavaScript, React"
               preview="https://promobit-teste.vercel.app/"
