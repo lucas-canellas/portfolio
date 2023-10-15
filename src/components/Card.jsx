@@ -13,13 +13,13 @@ export const Card = ({ image, title, subtitle, stack, preview, github }) => {
                         <a href={preview} target="_blank">
                             <div className='flex items-center gap-1 text-white hover:text-purple'>
                                 <AiOutlineLink/>
-                                <span className=" text-[16px] font-normal underline leading-relaxed">Live Preview</span>
+                                <span className=" text-[16px] font-normal underline leading-relaxed">Ver site</span>
                             </div>
                         </a>
                         <a href={github} target="_blank">
                             <div className='flex items-center gap-1 text-white hover:text-purple'>
                                 <AiFillGithub  />
-                                <span className=" text-[16px] font-normal underline leading-relaxed">View Code</span>
+                                <span className=" text-[16px] font-normal underline leading-relaxed">Ver código</span>
                             </div>
                         </a>
                     </div>
