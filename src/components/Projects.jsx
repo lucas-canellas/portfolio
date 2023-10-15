@@ -33,6 +33,7 @@ export const Projects = () => {
     return (
         <section className="bg-light dark:bg-dark pb-24">
             <div className="container mx-auto">
+                <div>{JSON.stringify(import.meta.env)}</div>
                 <div className="py-24">
                     <Category title="MEUS PROJETOS" />
                     <h2 className="text-cinder dark:text-text-light text-3xl font-bold font-plus">Projetos pessoais </h2>
