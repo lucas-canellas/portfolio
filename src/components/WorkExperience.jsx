@@ -17,29 +17,29 @@ export const WorkExperience = () => {
                     </ul>
                 </div>
                 <div>
-                    <h3 className="text-lg font-medium font-plus text-cinder">Desenvolvedor Front-end <span className="underline">Prefeitura Municipal de Itaboraí</span></h3>
-                    <div className="text-sm font-normal text-cinder-light mt-2">Itaboraí, Rio de Janeiro</div>
-                    <div className="text-sm font-normal text-cinder-light my-4">Jun 2022 - Presente</div>
+                    <h3 className="text-lg font-medium font-plus text-cinder dark:text-text-light">Desenvolvedor Front-end <span className="underline">Prefeitura Municipal de Itaboraí</span></h3>
+                    <div className="text-sm font-normal text-cinder-light dark:text-text-light mt-2">Itaboraí, Rio de Janeiro</div>
+                    <div className="text-sm font-normal text-cinder-light dark:text-text-light my-4">Jun 2022 - Presente</div>
                     <div className="flex gap-1">
                         <div className="w-[46px] h-[23px] px-2 py-1 rounded border border-text-light justify-start items-start gap-2.5 inline-flex">
-                            <div className="text-cinder-light text-xs font-medium">Html</div>
+                            <div className="text-cinder-light dark:text-text-light text-xs font-medium">Html</div>
                         </div>
                         <div className="w-[46px] h-[23px] px-2 py-1 rounded border border-text-light justify-start items-start gap-2.5 inline-flex">
-                            <div className="text-cinder-light text-xs font-medium">CSS</div>
+                            <div className="text-cinder-light dark:text-text-light text-xs font-medium">CSS</div>
                         </div>
                         <div className="w-[46px] h-[23px] px-2 py-1 rounded border border-text-light justify-start items-start gap-2.5 inline-flex">
-                            <div className="text-cinder-light text-xs font-medium">React</div>
+                            <div className="text-cinder-light dark:text-text-light text-xs font-medium">React</div>
                         </div>
                     </div>
                     <div className="w-full h-[1px] bg-[#F1F1F1] my-8"></div>
                     <ul>
                         <li className="flex items-center gap-2">
                             <div className="w-[10px] h-[2px] bg-[#d9d9d9]"></div>
-                            <span className="text-cinder-light text-base font-normal">Desenvolvimento do front-end para sistemas da prefeitura</span>
+                            <span className="text-cinder-light dark:text-text-light text-base font-normal">Desenvolvimento do front-end para sistemas da prefeitura</span>
                         </li>
                         <li className="flex items-center gap-2">
                             <div className="w-[10px] h-[2px] bg-[#d9d9d9]"></div>
-                            <span className="text-cinder-light text-base font-normal">Construção de landpages para eventos da cidade</span>
+                            <span className="text-cinder-light dark:text-text-light text-base font-normal">Construção de landpages para eventos da cidade</span>
                         </li>
                     </ul>
                 </div>
