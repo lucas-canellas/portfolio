@@ -23,7 +23,7 @@ export const Navbar = ({toogleTheme}) => {
                     </ul>
                 </div>
                 <div className="flex justify-between items-center gap-8">
-                    <div onClick={() => toogleTheme()} role="button" tabindex="0" >
+                    <div onClick={() => toogleTheme()} role="button" tabIndex="0" >
                         <MdOutlineDarkMode className='dark-mode' size={'24px'}/>
                         <MdOutlineLightMode className='light-mode hidden' size={'24px'} color='#FFF'/>
                     </div>

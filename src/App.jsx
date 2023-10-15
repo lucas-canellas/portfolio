@@ -1,6 +1,7 @@
 import { Hero } from "./components/Hero"
 import { Navbar } from "./components/Navbar"
 import { Projects } from "./components/Projects"
+import { WorkExperience } from "./components/WorkExperience"
 
 function App() {
 
@@ -26,6 +27,7 @@ function App() {
           <Navbar toogleTheme={toogleTheme}/>
           <Hero />
           <Projects />
+          <WorkExperience />          
       </div>   
     </>
   )
