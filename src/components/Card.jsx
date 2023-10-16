@@ -2,7 +2,7 @@ import { AiFillGithub, AiOutlineLink } from 'react-icons/ai'
 
 export const Card = ({ image, title, subtitle, stack, preview, github }) => {
     return (
-        <div className='bg-neutral-700 rounded-2xl shadow dark:text-text-light dark:border-l-2 dark:border-purple'>
+        <div className='bg-neutral-700 rounded-2xl shadow dark:text-text-light dark:border-2 dark:border-purple'>
             <img className='w-100 md:h-[260px] rounded-tl-2xl rounded-tr-2xl object-cover saturate-50' src={image} alt={title} />
             <div className='p-5 h-72 flex flex-col'>
                 <h3 className="text-center text-stone-300 text-2xl font-medium  mb-1">{title}</h3>
