@@ -19,6 +19,15 @@ export const Navbar = ({ toogleTheme }) => {
         document.body.style.overflow = "auto";
         document.querySelector('#site-content').classList.remove('blur-sm')
     }
+    
+    // scroll to id #projects
+    const scrollToProjects = (id) => {
+        const projects = document.querySelector(id)
+        projects.scrollIntoView({ behavior: 'smooth' })
+        closeMenu()
+    }
+
+
 
     return (
         <nav className="bg-white dark:bg-dark">
@@ -29,12 +38,12 @@ export const Navbar = ({ toogleTheme }) => {
                     </div>
                     <span className='font-extrabold text-cinder dark:text-text-light text-2xl'>Lucas.</span>
                 </div>
-                <div className='hidden md:flex'>
+{/*                 <div className='hidden md:flex'>
                     <ul className="flex justify-between gap-14 text-cinder dark:text-text-light text-base font-medium items-center">
-                        <li><a className='hover:underline' href="#">Projetos</a></li>
-                        <li><a className='hover:underline' href="#">Experiência</a></li>
+                        <li><a className='hover:underline' href="#projects">Projetos</a></li>
+                        <li><a className='hover:underline' href="#experience">Experiência</a></li>
                     </ul>
-                </div>
+                </div> */}
                 <div className="flex justify-between items-center gap-4 md:gap-8">
                     <div onClick={() => toogleTheme()} role="button" tabIndex="0" >
                         <MdOutlineDarkMode className='dark-mode' size={'24px'} />
@@ -59,8 +68,8 @@ export const Navbar = ({ toogleTheme }) => {
             {open && (
                 <div id='menu-navbar' className='w-full dark:bg-dark bg-text-light animate-spin-slow fixed z-10'>
                     <ul className='divide-y dark:divide-cinder-light divide-[#FFF]'>
-                        <li className='text-center py-2 font-bold dark:text-text-light dark:border-t dark:border-t-cinder-light '>Projetos</li>
-                        <li className='text-center py-2 font-bold dark:text-text-light '>Experiência</li>
+                        <li onClick={() => scrollToProjects("#projects")} className='text-center py-2 font-bold dark:text-text-light dark:border-t dark:border-t-cinder-light '>Projetos</li>
+                        <li onClick={() => scrollToProjects("#experience")} className='text-center py-2 font-bold dark:text-text-light '>Experiência</li>
                         <li className='text-center py-2 font-bold dark:text-text-light '>Download CV</li>
                     </ul>
                 </div>

@@ -31,7 +31,7 @@ export const Projects = () => {
     }, []);
 
     return (
-        <section className="bg-light dark:bg-dark pb-24">
+        <section id="projects" className="bg-light dark:bg-dark pb-24">
             <div className="container mx-auto px-2">
                 <div className="py-24">
                     <Category title="MEUS PROJETOS" />

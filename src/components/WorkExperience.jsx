@@ -4,7 +4,7 @@ import { SlArrowRight } from "react-icons/sl";
 
 export const WorkExperience = () => {
     return (
-        <section className="bg-white dark:bg-dark py-24 px-2">
+        <section id="experience" className="bg-white dark:bg-dark py-24 px-2">
             <div className="container mx-auto flex flex-col lg:flex-row">
                 <div className="mr-40">
                     <div className="mb-20">
