@@ -7,8 +7,8 @@ export const Hero = () => {
 
 
     return (
-        <section className="bg-white dark:bg-dark  py-24">
-            <div className="container mx-auto grid grid-cols-2 justify-between">
+        <section id="hero" className="bg-white dark:bg-dark  py-24">
+            <div className="container mx-auto grid grid-cols-1 lg:grid-cols-2 px-2 justify-between">
 
                 <div>
                     <Category title="MEU NOME É" />

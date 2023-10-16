@@ -5,7 +5,19 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      keyframes: {
+        topdown: {
+          '0%': { transform: 'translateY(-10px)' },
+          '100%': { transform: 'translateY(0)' },
+        
+        }
+      },
+      animation: {
+        'spin-slow': 'topdown 0.25s linear forwards',
+
+      }
+    },
     colors: {
       'cinder': '#232E35',
       'dark': '#1E1E1E',

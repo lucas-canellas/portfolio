@@ -4,14 +4,14 @@ import { SlArrowRight } from "react-icons/sl";
 
 export const WorkExperience = () => {
     return (
-        <section className="bg-white dark:bg-dark py-24">
-            <div className="container mx-auto flex">
+        <section className="bg-white dark:bg-dark py-24 px-2">
+            <div className="container mx-auto flex flex-col lg:flex-row">
                 <div className="mr-40">
                     <div className="mb-20">
                         <Category title="CARREIRA" />
                         <h2 className="text-cinder dark:text-text-light text-3xl font-bold font-plus">Experiência profissional </h2>
                     </div>
-                    <ul className="w-full  py-3 px-8 bg-text-light dark:bg-dark dark:border dark:border-text-light flex justify-between items-center" tabIndex="0" role="button">
+                    <ul className="w-full hidden  py-3 px-8 bg-text-light dark:bg-dark dark:border dark:border-text-light lg:flex justify-between items-center" tabIndex="0" role="button">
                         <li><span className="text-purple">PMI</span></li>
                         <SlArrowRight className="text-purple" size={"16px"} />
                     </ul>

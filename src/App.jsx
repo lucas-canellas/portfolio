@@ -10,7 +10,7 @@ function App() {
     const dark = document.querySelector('.dark-mode')
     const light = document.querySelector('.light-mode')
     // if light - else dark
-    if(html.classList.contains('dark')) {
+    if (html.classList.contains('dark')) {
       html.classList.remove('dark')
       light.classList.add('hidden')
       dark.classList.remove('hidden')
@@ -24,14 +24,15 @@ function App() {
   return (
     <>
       <div className="text-cinder">
-          <Navbar toogleTheme={toogleTheme}/>
+        <Navbar toogleTheme={toogleTheme} />
+        <div id="site-content">
           <Hero />
           <Projects />
-          <WorkExperience />          
-      </div>   
+          <WorkExperience />
+        </div>
+      </div>
     </>
   )
 }
 
 export default App
- 

@@ -32,13 +32,13 @@ export const Projects = () => {
 
     return (
         <section className="bg-light dark:bg-dark pb-24">
-            <div className="container mx-auto">
+            <div className="container mx-auto px-2">
                 <div className="py-24">
                     <Category title="MEUS PROJETOS" />
                     <h2 className="text-cinder dark:text-text-light text-3xl font-bold font-plus">Projetos pessoais </h2>
                 </div>
                 <div className="">
-                    <div className="grid grid-cols-4 gap-10 w-full">
+                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-10 w-full">
                         {
                             data && data.map(project => <Card github={project.attributes.github} image={project.attributes.image} preview={project.attributes.preview} stack={project.attributes.stack} subtitle={project.attributes.subtitle} title={project.attributes.title} key={project.attributes.title} />)
                         }
