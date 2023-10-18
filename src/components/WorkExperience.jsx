@@ -21,16 +21,16 @@ export const WorkExperience = () => {
                     <div className="text-sm font-normal text-cinder-light dark:text-text-light mt-2">Itaboraí, Rio de Janeiro</div>
                     <div className="text-sm font-normal text-cinder-light dark:text-text-light my-4">Jun 2022 - Presente</div>
                     <div className="flex gap-1">
-                        <div className="w-[46px] h-[23px] px-2 py-1 rounded border border-text-light justify-start items-start gap-2.5 inline-flex">
+                        <div className="w-[46px] h-[23px] px-2 py-1 rounded border border-text-light justify-center items-start gap-2.5 inline-flex">
                             <div className="text-cinder-light dark:text-text-light text-xs font-medium">Html</div>
                         </div>
-                        <div className="w-[46px] h-[23px] px-2 py-1 rounded border border-text-light justify-start items-start gap-2.5 inline-flex">
+                        <div className="w-[46px] h-[23px] px-2 py-1 rounded border border-text-light justify-center items-start gap-2.5 inline-flex">
                             <div className="text-cinder-light dark:text-text-light text-xs font-medium">CSS</div>
                         </div>
-                        <div className="w-[46px] h-[23px] px-2 py-1 rounded border border-text-light justify-start items-start gap-2.5 inline-flex">
+                        <div className="w-[46px] h-[23px] px-2 py-1 rounded border border-text-light justify-center items-start gap-2.5 inline-flex">
                             <div className="text-cinder-light dark:text-text-light text-xs font-medium">JS</div>
                         </div>
-                        <div className="w-[46px] h-[23px] px-2 py-1 rounded border border-text-light justify-start items-start gap-2.5 inline-flex">
+                        <div className="w-[46px] h-[23px] px-2 py-1 rounded border border-text-light justify-center items-start gap-2.5 inline-flex">
                             <div className="text-cinder-light dark:text-text-light text-xs font-medium">React</div>
                         </div>
                     </div>
