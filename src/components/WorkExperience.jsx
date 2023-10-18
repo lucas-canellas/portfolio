@@ -35,11 +35,15 @@ export const WorkExperience = () => {
                     <ul>
                         <li className="flex items-center gap-2">
                             <div className="w-[10px] h-[2px] bg-[#d9d9d9]"></div>
-                            <span className="text-cinder-light dark:text-text-light text-base font-normal">Desenvolvimento do front-end para sistemas da prefeitura</span>
+                            <span className="text-cinder-light dark:text-text-light text-base font-normal">Desenvolvimento de interfaces front-end para aplicativos e sistemas da Prefeitura, aprimorando a experiência do usuário.</span>
                         </li>
                         <li className="flex items-center gap-2">
                             <div className="w-[10px] h-[2px] bg-[#d9d9d9]"></div>
-                            <span className="text-cinder-light dark:text-text-light text-base font-normal">Construção de landpages para eventos da cidade</span>
+                            <span className="text-cinder-light dark:text-text-light text-base font-normal">Utilização de tecnologias HTML, CSS e React para criar interfaces responsivas e amigáveis.</span>
+                        </li>
+                        <li className="flex items-center gap-2">
+                            <div className="w-[10px] h-[2px] bg-[#d9d9d9]"></div>
+                            <span className="text-cinder-light dark:text-text-light text-base font-normal">Construção de landing pages de alto desempenho para eventos e atividades da cidade, melhorando a divulgação e participação da comunidade.</span>
                         </li>
                     </ul>
                 </div>

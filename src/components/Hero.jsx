@@ -26,10 +26,10 @@ export const Hero = () => {
                                 .start();
                         }}
                     /></h2>
-                    <p className="text-base font-normal leading-loose mt-8 dark:text-text-light">Desenvolvedor com 1+ anos de experiência. Trabalho principalmente com JavaScript e React, desenvolvo também projetos Back-end com Spring Boot.</p>
+                    <p className="text-base font-normal leading-loose mt-8 dark:text-text-light">Desenvolvedor front-end com mais de um ano de experiência, tenho trabalhado com tecnologias como HTML, CSS, Javascript, React e também tenho conhecimento em desenvolvimento backend usando Spring Boot.  </p>
                     <div >
                         <ul className="flex gap-8 mt-9 dark:text-text-light">
-                            <li><a href="#"><FiGithub size={"24px"} /></a></li>
+                            <li><a target="_blank" href="https://github.com/lucas-canellas"><FiGithub size={"24px"} /></a></li>
                             <li><a href="#"><FiLinkedin size={"24px"} /></a></li>
                         </ul>
                     </div>

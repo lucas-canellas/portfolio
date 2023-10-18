@@ -49,9 +49,9 @@ export const Navbar = ({ toogleTheme }) => {
                         <MdOutlineDarkMode className='dark-mode' size={'24px'} />
                         <MdOutlineLightMode className='light-mode hidden' size={'24px'} color='#FFF' />
                     </div>
-                    <button className='px-6 py-4 transition rounded-lg border border-[#F1F1F1] hover:shadow-lg hidden md:block'>
+{/*                     <button className='px-6 py-4 transition rounded-lg border border-[#F1F1F1] hover:shadow-lg hidden md:block'>
                         <span className='dark:text-text-light'>Resume</span>
-                    </button>
+                    </button> */}
                     {open ? (
                         <button className='md:hidden' onClick={closeMenu}>
                             <MdClose size={'24px'} className='dark:text-[#FFF]' />
@@ -70,7 +70,7 @@ export const Navbar = ({ toogleTheme }) => {
                     <ul className='divide-y dark:divide-cinder-light divide-[#FFF]'>
                         <li onClick={() => scrollToProjects("#projects")} className='text-center py-2 font-bold dark:text-text-light dark:border-t dark:border-t-cinder-light '>Projetos</li>
                         <li onClick={() => scrollToProjects("#experience")} className='text-center py-2 font-bold dark:text-text-light '>Experiência</li>
-                        <li className='text-center py-2 font-bold dark:text-text-light '>Download CV</li>
+                        {/* <li className='text-center py-2 font-bold dark:text-text-light '>Download CV</li> */}
                     </ul>
                 </div>
             )}
