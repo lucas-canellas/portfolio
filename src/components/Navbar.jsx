@@ -46,8 +46,8 @@ export const Navbar = ({ toogleTheme }) => {
                 </div> */}
                 <div className="flex justify-between items-center gap-4 md:gap-8">
                     <div onClick={() => toogleTheme()} role="button" tabIndex="0" >
-                        <MdOutlineDarkMode className='dark-mode' size={'24px'} />
-                        <MdOutlineLightMode className='light-mode hidden' size={'24px'} color='#FFF' />
+                        <MdOutlineDarkMode className='dark-mode hidden' size={'24px'} />
+                        <MdOutlineLightMode className='light-mode' size={'24px'} color='#FFF' />
                     </div>
 {/*                     <button className='px-6 py-4 transition rounded-lg border border-[#F1F1F1] hover:shadow-lg hidden md:block'>
                         <span className='dark:text-text-light'>Resume</span>

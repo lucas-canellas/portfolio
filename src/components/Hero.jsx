@@ -30,7 +30,7 @@ export const Hero = () => {
                     <div >
                         <ul className="flex gap-8 mt-9 dark:text-text-light">
                             <li><a target="_blank" href="https://github.com/lucas-canellas"><FiGithub size={"24px"} /></a></li>
-                            <li><a href="#"><FiLinkedin size={"24px"} /></a></li>
+                            <li><a target="_blank" href="https://www.linkedin.com/in/lucas-canellas/"><FiLinkedin size={"24px"} /></a></li>
                         </ul>
                     </div>
                 </div>
