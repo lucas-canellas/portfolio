@@ -18,7 +18,7 @@ export const Projects = () => {
             github: 'https://github.com/lucas-canellas/shoppingify-back'
         },
         {
-            image: 'https://ibb.co/vJg7wCC',
+            image: 'https://i.ibb.co/CnNk1pp/weatherapp.png',
             title: 'WeatherApp',
             subtitle: 'App de previsão do tempo.',
             stack: 'React',
