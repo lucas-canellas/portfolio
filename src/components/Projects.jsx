@@ -10,7 +10,7 @@ export const Projects = () => {
 
     const projects = [
         {
-            image: 'https://i.ibb.co/sj7JF4M/shoppingify.png',
+            image: 'https://i.ibb.co/S6mXJcD/shoppingify.png',
             title: 'Shoppingify',
             subtitle: 'Desafio frontend do site devchallenges.com',
             stack: 'React',
