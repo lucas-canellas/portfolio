@@ -12,10 +12,18 @@ export const Projects = () => {
         {
             image: 'https://i.ibb.co/S6mXJcD/shoppingify.png',
             title: 'Shoppingify',
-            subtitle: 'Desafio frontend do site devchallenges.com',
+            subtitle: 'App de lista de compras.',
             stack: 'React',
             preview: 'https://shoppingify-frontend-dun.vercel.app/home',
             github: 'https://github.com/lucas-canellas/shoppingify-back'
+        },
+        {
+            image: 'https://ibb.co/vJg7wCC',
+            title: 'WeatherApp',
+            subtitle: 'App de previsão do tempo.',
+            stack: 'React',
+            preview: 'https://weather-app-rosy-three.vercel.app/',
+            github: 'https://github.com/lucas-canellas/weather_app'
         }
     ];
 
