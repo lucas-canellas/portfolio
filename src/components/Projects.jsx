@@ -10,36 +10,12 @@ export const Projects = () => {
 
     const projects = [
         {
-            image: 'https://via.placeholder.com/300x260',
-            title: 'Projeto 1',
-            subtitle: 'Este é um projeto incrível sobre XYZ.',
-            stack: 'React, Node.js, MongoDB',
-            preview: 'https://projeto1.com',
-            github: 'https://github.com/user/projeto1'
-        },
-        {
-            image: 'https://via.placeholder.com/300x260',
-            title: 'Projeto 2',
-            subtitle: 'Um projeto que automatiza tarefas com IA.',
-            stack: 'Python, TensorFlow, Flask',
-            preview: 'https://projeto2.com',
-            github: 'https://github.com/user/projeto2'
-        },
-        {
-            image: 'https://via.placeholder.com/300x260',
-            title: 'ViaCEP BOT Telegram',
-            subtitle: 'Bot para consultar informações de endereços via CEP.',
-            stack: 'Python, Telegram API',
-            preview: 'https://t.me/viacepbot',
-            github: 'https://github.com/user/viacepbot'
-        },
-        {
-            image: 'https://via.placeholder.com/300x260',
-            title: 'Projeto 4',
-            subtitle: 'Um sistema de gerenciamento de clientes.',
-            stack: 'Java, Spring Boot, PostgreSQL',
-            preview: 'https://projeto4.com',
-            github: 'https://github.com/user/projeto4'
+            image: 'https://i.ibb.co/sj7JF4M/shoppingify.png',
+            title: 'Shoppingify',
+            subtitle: 'Desafio frontend do site devchallenges.com',
+            stack: 'React',
+            preview: 'https://shoppingify-frontend-dun.vercel.app/home',
+            github: 'https://github.com/lucas-canellas/shoppingify-back'
         }
     ];
 
