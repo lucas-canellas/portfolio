@@ -8,27 +8,41 @@ import axios from "axios";
 export const Projects = () => {
 
 
-    const [data, setData] = useState(null);
-    const [error, setError] = useState(null);
+    const projects = [
+        {
+            image: 'https://via.placeholder.com/300x260',
+            title: 'Projeto 1',
+            subtitle: 'Este é um projeto incrível sobre XYZ.',
+            stack: 'React, Node.js, MongoDB',
+            preview: 'https://projeto1.com',
+            github: 'https://github.com/user/projeto1'
+        },
+        {
+            image: 'https://via.placeholder.com/300x260',
+            title: 'Projeto 2',
+            subtitle: 'Um projeto que automatiza tarefas com IA.',
+            stack: 'Python, TensorFlow, Flask',
+            preview: 'https://projeto2.com',
+            github: 'https://github.com/user/projeto2'
+        },
+        {
+            image: 'https://via.placeholder.com/300x260',
+            title: 'ViaCEP BOT Telegram',
+            subtitle: 'Bot para consultar informações de endereços via CEP.',
+            stack: 'Python, Telegram API',
+            preview: 'https://t.me/viacepbot',
+            github: 'https://github.com/user/viacepbot'
+        },
+        {
+            image: 'https://via.placeholder.com/300x260',
+            title: 'Projeto 4',
+            subtitle: 'Um sistema de gerenciamento de clientes.',
+            stack: 'Java, Spring Boot, PostgreSQL',
+            preview: 'https://projeto4.com',
+            github: 'https://github.com/user/projeto4'
+        }
+    ];
 
-    useEffect(() => {
-
-        const token = import.meta.env.VITE_STRIPE_TOKEN;  
-
-        const config = {
-            headers: {
-                'Authorization': `Bearer ${token}` // Adicione o token de autenticação no cabeçalho
-            }
-        };
-
-        axios.get('https://lucas-david-portfolio.up.railway.app/api/projects', config)
-            .then((response) => {
-                setData(response.data.data);
-            })
-            .catch((error) => {
-                setError(error);
-            });
-    }, []);
 
     return (
         <section id="projects" className="bg-light dark:bg-dark pb-24">
@@ -39,9 +53,17 @@ export const Projects = () => {
                 </div>
                 <div className="">
                     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-4 gap-10 w-full">
-                        {
-                            data && data.map(project => <Card github={project.attributes.github} image={project.attributes.image} preview={project.attributes.preview} stack={project.attributes.stack} subtitle={project.attributes.subtitle} title={project.attributes.title} key={project.attributes.title} />)
-                        }
+                        {projects.map((project, index) => (
+                            <Card
+                                key={index}
+                                image={project.image}
+                                title={project.title}
+                                subtitle={project.subtitle}
+                                stack={project.stack}
+                                preview={project.preview}
+                                github={project.github}
+                            />
+                        ))}
                     </div>
                 </div>
             </div>
