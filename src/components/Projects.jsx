@@ -13,7 +13,7 @@ export const Projects = () => {
             image: 'https://i.ibb.co/S6mXJcD/shoppingify.png',
             title: 'Shoppingify',
             subtitle: 'App de lista de compras.',
-            stack: 'React',
+            stack: 'React, Springboot e Postgres',
             preview: 'https://shoppingify-frontend-dun.vercel.app/home',
             github: 'https://github.com/lucas-canellas/shoppingify-back'
         },
